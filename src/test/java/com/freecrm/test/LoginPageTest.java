@@ -35,6 +35,13 @@ public class LoginPageTest extends BasePage {
 	   Assert.assertTrue(isLogoDisplayed,"FreeCRM LOGO is not displayed");
 	}
 	
+	@Test(groups = {"sanity"}, priority=2)
+	public void logoVeri()
+	{
+	   boolean isLogoDisplayed = loginPage.logoDisplayed();
+	   Assert.assertTrue(isLogoDisplayed,"FreeCRM LOGO is not displayed");
+	}
+	
 	@Test(groups = {"sanity"}, priority=3 )
 	public void loginVerify()
 	{
