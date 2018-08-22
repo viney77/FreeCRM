@@ -22,7 +22,7 @@ public class LoginPageTest extends BasePage {
 	}
 	
 	@Test(groups = {"sanity" , "regression"}, priority=2)
-	public void validateLoginPageTitle()
+	public void validateLoginPageTiteeeee()
 	{
 		String Title = loginPage.getLoginPageTitle();
 		Assert.assertEquals(Title, "Free CRM software in the cloud powers sales and customer service");
