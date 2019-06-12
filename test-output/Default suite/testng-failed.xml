@@ -5,9 +5,12 @@
     <classes>
       <class name="com.freecrm.test.LoginPageTest">
         <methods>
+          <include name="logoVerify"/>
           <include name="setUp"/>
           <include name="loginVerify"/>
+          <include name="logoVeri"/>
           <include name="teardown"/>
+          <include name="validateLoginPageTiteeeee"/>
         </methods>
       </class> <!-- com.freecrm.test.LoginPageTest -->
     </classes>

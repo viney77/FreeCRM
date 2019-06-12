@@ -20,7 +20,7 @@ public class LoginPageTest extends BasePage {
 		loginPage = new LoginPage();
 		homePage = new HomePage();
 	}
-	
+	 
 	@Test(groups = {"sanity" , "regression"}, priority=2)
 	public void validateLoginPageTiteeeee()
 	{

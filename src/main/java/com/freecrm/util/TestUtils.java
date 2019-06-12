@@ -23,3 +23,4 @@ public class TestUtils {
 		return new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(element));
 	}
 }
+
